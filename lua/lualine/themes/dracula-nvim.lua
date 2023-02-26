@@ -16,12 +16,12 @@ local command = {
 }
 
 local visual = {
-   a = { fg = colors.black, bg = colors.pink, gui = 'bold' },
-   b = { fg = colors.pink, bg = bg },
+   a = { fg = colors.black, bg = colors.white, gui = 'bold' },
+   b = { fg = colors.white, bg = bg },
 }
 
 local inactive = {
-   a = { fg = colors.white, bg = colors.visual, gui = 'bold' },
+   a = { fg = colors.white, bg = colors.selection, gui = 'bold' },
    b = { fg = colors.black, bg = colors.white },
 }
 
